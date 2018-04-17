@@ -283,13 +283,91 @@
 			
 \end{frame}
 
+\begin{frame}
+	\frametitle{Knowledge graph}		
+			
+	\begin{center} 
+		\centering 
+			\includegraphics[width=0.8\textwidth,height=0.8\textheight,keepaspectratio]{ggkb} 			
+			\vspace{0.5cm}
+	\end{center}		
+		
+			
+\end{frame}
+
+\begin{frame}
+	\frametitle{Knowledge graph}		
+			
+	\begin{center} 
+		\centering 
+			\includegraphics[width=0.8\textwidth,height=0.8\textheight,keepaspectratio]{ggexample} 			
+			\vspace{0.5cm}
+	\end{center}		
+		
+			
+\end{frame}
+
+
+\begin{frame}
+	\frametitle{Knowledge graph in Neo4j}		
+			
+	\begin{center} 
+		\centering 
+			\includegraphics[width=0.7\textwidth,height=0.7\textheight,keepaspectratio]{neo4j} 			
+			\vspace{0.5cm}
+	\end{center}		
+		
+			
+\end{frame}
+
+\begin{frame}
+	\frametitle{World Cup 2018 QA}		
+
+	\begin{center} 
+		\centering 
+			\includegraphics[width=0.8\textwidth,height=0.8\textheight,keepaspectratio]{ourkb} 			
+			\vspace{0.5cm}
+	\end{center}		
+			
+\end{frame}
+
+\begin{frame}
+	\frametitle{Our case}		
+
+			
+	\begin{itemize}
+		\item[•] World Cup QA is a closed domain fatoid QA
+		
+		\item[•] The result need to be precised or at least we know what we don't know
+		
+		\item[•] We don't have enough annotated data  
+			
+	\end{itemize}		
+
+\end{frame}
+
+\begin{frame}
+	\frametitle{Proposed method}		
+
+			
+	\begin{itemize}
+		\item[•] Analyze syntactic struture of the question on it's dependency tree
+		
+		\item[•] Process on that tree to gather RDF Tripples
+		
+		\item[•] Construct query from those tripples
+			
+	\end{itemize}		
+
+\end{frame}
+
 
 \begin{frame}
 	\frametitle{Dependency parsing}
 			
 	\begin{center} 
 		\centering 
-			\includegraphics[width=0.7\textwidth,height=0.7\textheight,keepaspectratio]{example} 			
+			\includegraphics[width=0.8\textwidth,height=0.8\textheight,keepaspectratio]{example} 			
 			\vspace{0.5cm} 
 	\end{center}		
 		
@@ -301,7 +379,7 @@
 	Type of Dependencies
 	\begin{center} 
 		\centering 
-			\includegraphics[width=0.7\textwidth,height=0.7\textheight,keepaspectratio]{dptypes} 			
+			\includegraphics[width=0.8\textwidth,height=0.8\textheight,keepaspectratio]{dptypes} 			
 			\vspace{0.5cm} 
 	\end{center}	
 		
@@ -334,20 +412,373 @@
 \end{frame}
 
 \begin{frame}
-	\frametitle{Proposed method}
-			
+	\frametitle{Pipeline - Step 1: Parsing}
+	
+	We feed the question through VnCoreNlpParser (https://github.com/vncorenlp/VnCoreNLP)
+	
 	\begin{center} 
 		\centering 
-			\includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{qa_first_ex} 			
+			\includegraphics[width=0.7\textwidth,height=0.7\textheight,keepaspectratio]{firstex} 		
 			\vspace{0.5cm} 
-	\end{center}		
+	\end{center}	
 		
 \end{frame}
+
+\begin{frame}
+	\frametitle{Pipeline - Step 1: Parsing}
 	
-\section{Tham khảo}
+	Q = "Huấn luyện viên đội tuyển Đức là ai ?"
+	
+	\begin{center} 
+		\centering 
+			\includegraphics[width=0.7\textwidth,height=0.7\textheight,keepaspectratio]{firstextree}
+			\vspace{0.5cm} 
+	\end{center}
+		
+\end{frame}
+
+\begin{frame}
+	\frametitle{Pipeline - Step 2: Tree simplification}
+	
+	\begin{center} 
+		\centering 
+			\includegraphics[width=0.7\textwidth,height=0.7\textheight,keepaspectratio]{firstextreesimplified}
+			\vspace{0.5cm} 
+	\end{center}
+		
+\end{frame}
+
+\begin{frame}
+	\frametitle{Pipeline - Step 2: Tree simplification}
+	
+	\begin{center} 
+		\centering 
+			\includegraphics[width=0.7\textwidth,height=0.7\textheight,keepaspectratio]{firstextreesimplified2}
+			\vspace{0.5cm} 
+	\end{center}
+		
+\end{frame}
+
+\begin{frame}
+	\frametitle{Pipeline - Step 2: Tree simplification}
+	
+	\begin{center} 
+		\centering 
+			\includegraphics[width=0.7\textwidth,height=0.7\textheight,keepaspectratio]{firstextreesimplified3}
+			\vspace{0.5cm} 
+	\end{center}
+		
+\end{frame}
+
+
+\begin{frame}
+	\frametitle{Pipeline - Step 3: RDF triples construction}
+	
+	\begin{itemize}
+		
+		\item[•] Assume the tree is in form of a linked list.
+		\item[•] Start with the leaf node whose tag is not \textbf{P} (question word)
+		\item[•] Iterate through nodes 
+		
+	\end{itemize}
+		
+\end{frame}
+
+\begin{frame}
+	\frametitle{Pipeline - Step 3: RDF triples construction}
+	\textbf{T} = (đội tuyển Đức,,)
+	\begin{center} 
+		\centering 
+			\includegraphics[width=0.7\textwidth,height=0.7\textheight,keepaspectratio]			{firstextreesimplified3}
+			\vspace{0.5cm} 
+	\end{center}	
+	
+	
+		
+\end{frame}
+
+\begin{frame}
+	\frametitle{Pipeline - Step 3: RDF triples construction}
+	\textbf{T} = (đội tuyển Đức, \textit{VERBIFY(huấn luyện viên)},)
+	\begin{center} 
+		\centering 
+			\includegraphics[width=0.7\textwidth,height=0.7\textheight,keepaspectratio]			{firstextreesimplified3}
+			\vspace{0.5cm} 
+	\end{center}	
+	
+	
+		
+\end{frame}
+
+\begin{frame}
+	\frametitle{Pipeline - Step 3: RDF triples construction}
+	
+	\textbf{T} = (đội tuyển Đức, \textit{COACH\_FOR},)
+	
+	\begin{center} 
+		\centering 
+			\includegraphics[width=0.7\textwidth,height=0.7\textheight,keepaspectratio]			{firstextreesimplified3}
+			\vspace{0.5cm} 
+	\end{center}	
+
+\end{frame}
+
+\begin{frame}
+	\frametitle{Pipeline - Step 3: RDF triples construction}
+	
+	\textbf{T} = (đội tuyển Đức, \textit{COACH\_FOR}, ?)
+	\begin{center} 
+		\centering 
+			\includegraphics[width=0.7\textwidth,height=0.7\textheight,keepaspectratio]			{firstextreesimplified3}
+			\vspace{0.5cm} 
+	\end{center}		
+\end{frame}
+
+
+\begin{frame}
+	\frametitle{Examples}
+	
+	Q = "Sân nhà của đội tuyển Nga tên gì"
+	
+	\begin{center} 
+		\centering 
+			\includegraphics[width=0.7\textwidth,height=0.7\textheight,keepaspectratio]{secondextree}
+			\vspace{0.5cm} 
+	\end{center}
+		
+\end{frame}
+
+\begin{frame}
+	\frametitle{Examples}
+	
+	Q = "Sân nhà của đội tuyển Nga tên gì"
+	
+	\begin{center} 
+		\centering 
+			\includegraphics[width=0.7\textwidth,height=0.7\textheight,keepaspectratio]{secondextree2}
+			\vspace{0.5cm} 
+	\end{center}
+		
+\end{frame}
+
+
+\begin{frame}
+	\frametitle{Examples}
+	
+	Q = "Sân nhà của đội tuyển Nga tên gì"
+	
+	$T_1$ = (đội tuyển Nga, VERBIFY(sân nhà),)
+	
+	\begin{center} 
+		\centering 
+			\includegraphics[width=0.5\textwidth,height=0.5\textheight,keepaspectratio]{secondextree2}
+			\vspace{0.5cm} 
+	\end{center}
+		
+\end{frame}
+
+\begin{frame}
+	\frametitle{Examples}
+	
+	Q = "Sân nhà của đội tuyển Nga tên gì"
+	
+	$T_1$ = (đội tuyển Nga, IS\_HOME\_STADIUM, ?)
+	
+	\begin{center} 
+		\centering 
+			\includegraphics[width=0.5\textwidth,height=0.5\textheight,keepaspectratio]{secondextree2}
+			\vspace{0.5cm} 
+	\end{center}
+		
+\end{frame}
+
+\begin{frame}
+	\frametitle{Examples}
+	
+	Q = "Sân nhà của đội tuyển Nga tên gì"
+	
+	$T_1$ = (đội tuyển Nga, IS\_HOME\_STADIUM, ?)\\
+	$T_2$ = (\textit{<prev>},,)
+	
+	\begin{center} 
+		\centering 
+			\includegraphics[width=0.5\textwidth,height=0.5\textheight,keepaspectratio]{secondextree2}
+			\vspace{0.5cm} 
+	\end{center}
+		
+\end{frame}
+
+\begin{frame}
+	\frametitle{Examples}
+	
+	Q = "Sân nhà của đội tuyển Nga tên gì"
+	
+	$T_1$ = (đội tuyển Nga, IS\_HOME\_STADIUM, ?)\\
+	$T_2$ = (\textit{<prev>},,)\\
+	NOUNLIFY(tên/V) = tên/N
+	
+	\begin{center} 
+		\centering 
+			\includegraphics[width=0.5\textwidth,height=0.5\textheight,keepaspectratio]{secondextree2}
+			\vspace{0.5cm} 
+	\end{center}
+		
+\end{frame}
+
+\begin{frame}
+	\frametitle{Examples}
+	
+	Q = "Sân nhà của đội tuyển Nga tên gì"
+	
+	$T_1$ = (đội tuyển Nga, IS\_HOME\_STADIUM, ?)\\
+	$T_2$ = (\textit{<prev>}.tên,,)
+	
+	\begin{center} 
+		\centering 
+			\includegraphics[width=0.5\textwidth,height=0.5\textheight,keepaspectratio]{secondextree2}
+			\vspace{0.5cm} 
+	\end{center}
+		
+\end{frame}
+
+\begin{frame}
+	\frametitle{Examples}
+	
+	Q = "Cầu thủ cao nhất đội tuyển Đức là ai"
+	
+	\begin{center} 
+		\centering 
+			\includegraphics[width=0.8\textwidth,height=0.8\textheight,keepaspectratio]{thirdextree}
+			\vspace{0.5cm} 
+	\end{center}
+		
+\end{frame}
+
+\begin{frame}
+	\frametitle{Examples}
+	
+	Q = "Cầu thủ cao nhất đội tuyển Đức là ai"\\
+	$T$ = (đội tuyển Đức,,)\\
+	
+	We meet the adjective "cao nhất", we will NOUNLIFY the adjective "cao", if we success, then append a slot to $T$.\\
+	$T$ = (đội tuyển Đức,,,NOUNLIFY(cao))\\
+	
+	
+	\begin{center} 
+		\centering 
+			\includegraphics[width=0.8\textwidth,height=0.8\textheight,keepaspectratio]{thirdextree2}
+			\vspace{0.5cm} 
+	\end{center}
+		
+\end{frame}
+
+\begin{frame}
+	\frametitle{Examples}
+	
+	Q = "Cầu thủ cao nhất đội tuyển Đức là ai"\\
+	$T$ = (đội tuyển Đức,,)\\
+	
+	We meet the adjective "cao nhất", we will NOUNLIFY the adjective "cao", if we success, then append a slot to $T$.\\
+	$T$ = (đội tuyển Đức,,,NOUNLIFY(cao))\\
+	$T$ = (đội tuyển Đức,,,chiều cao)\\
+	
+	
+	\begin{center} 
+		\centering 
+			\includegraphics[width=0.8\textwidth,height=0.8\textheight,keepaspectratio]{thirdextree2}
+			\vspace{0.5cm} 
+	\end{center}
+		
+\end{frame}
+
+\begin{frame}
+	\frametitle{Examples}
+	
+	Q = "Cầu thủ cao nhất đội tuyển Đức là ai"\\
+	$T$ = (đội tuyển Đức,,)\\
+	
+	We meet the adjective "cao nhất", we will NOUNLIFY the adjective "cao", if we success, then append a slot to $T$.\\
+	$T$ = (đội tuyển Đức,,,NOUNLIFY(cao))\\
+	$T$ = (đội tuyển Đức,,,chiều cao)\\
+	$T$ = (đội tuyển Đức,VERBIFY(cầu thủ),,chiều cao)\\
+	
+	
+	\begin{center} 
+		\centering 
+			\includegraphics[width=0.8\textwidth,height=0.8\textheight,keepaspectratio]{thirdextree2}
+			\vspace{0.5cm} 
+	\end{center}
+		
+\end{frame}
+
+\begin{frame}
+	\frametitle{Examples}
+	
+	Q = "Cầu thủ cao nhất đội tuyển Đức là ai"\\
+	$T$ = (đội tuyển Đức,,)\\
+	
+	We meet the adjective "cao nhất", we will NOUNLIFY the adjective "cao", if we success, then append a slot to $T$.\\
+	$T$ = (đội tuyển Đức,,,NOUNLIFY(cao))\\
+	$T$ = (đội tuyển Đức,,,chiều cao)\\
+	$T$ = (đội tuyển Đức,PLAY\_FOR, ? ,chiều cao)\\
+	
+	
+	\begin{center} 
+		\centering 
+			\includegraphics[width=0.8\textwidth,height=0.8\textheight,keepaspectratio]{thirdextree2}
+			\vspace{0.5cm} 
+	\end{center}
+		
+\end{frame}
+
+\section{About this method}
+\begin{frame}
+	\frametitle{About this method}
+	
+	\begin{itemize}
+	
+		\item[•] The quality of the method depends on:
+		\begin{itemize}
+			\item[•] How good the parser is
+			\item[•] How well our dictionary (VERBIFY, NOUNLIFY) is defined
+		\end{itemize}
+		\item[•] Advantages:
+		\begin{itemize}
+			\item[•] Require no human annotation
+			\item[•] Data driven
+			\item[•] Algorithmic \& Debuggable
+			\item[•] Stable \& extensible	
+			\item[•] We know what we know and what we don't know
+		\end{itemize}
+		
+		\item[•] Disavantages:
+		\begin{itemize}
+			\item[•] Require understanding about language (Vietnamese)
+			\item[•] Require understanding about the domain (Football)
+			\item[•] Rely on $3^{rd}$ parties (VnCoreNlp)
+			\item[•] When the parser goes wrong, we have to hard-code
+		\end{itemize}
+		
+	\end{itemize}	
+	
+\end{frame}
+
+	
+\section{References}
 \begin{frame}
 	\frametitle{Tham khảo}
-	\printbibliography
+	
+	\begin{itemize}
+	
+	\item[•] Yassine Hamoudi \& Tom Cornebize: Extracting RDF triples using the Stanford Parser
+	
+	\item[•] Daniel Jurafsky \& James H. Martin: Speech and Language Processing
+	
+	\item[•] Dennis Diefenbach, Vanessa Lopez, Kamal Singh \& Pierre Maret: Core Techniques of Question Answering Systems over Knowledge Bases: a Survey
+Dennis 	
+	
+	\end{itemize}		
+	
 \end{frame}
 	
 	

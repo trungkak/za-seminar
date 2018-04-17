@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.11.9)  17 APR 2018 00:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.11.9)  17 APR 2018 15:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1784,7 +1784,7 @@ thkerncmss.
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-<images/siri.jpg, id=61, 642.4pt x 1140.26pt>
+<images/siri.jpg, id=65, 642.4pt x 1140.26pt>
 File: images/siri.jpg Graphic file (type jpg)
  <use images/siri.jpg>
 Package pdftex.def Info: images/siri.jpg used on input line 187.
@@ -1793,7 +1793,7 @@ Package pdftex.def Info: images/siri.jpg used on input line 187.
 Overfull \vbox (7.75114pt too high) detected at line 187
  []
 
-<hcmus.png, id=62, 43.362pt x 40.7121pt>
+<hcmus.png, id=66, 43.362pt x 40.7121pt>
 File: hcmus.png Graphic file (type png)
  <use hcmus.png>
 Package pdftex.def Info: hcmus.png used on input line 187.
@@ -1824,7 +1824,7 @@ Package pdftex.def Info: hcmus.png used on input line 225.
  [4
 
 ]
-<images/irbase.jpg, id=151, 640.3925pt x 360.34625pt>
+<images/irbase.jpg, id=156, 640.3925pt x 360.34625pt>
 File: images/irbase.jpg Graphic file (type jpg)
  <use images/irbase.jpg>
 Package pdftex.def Info: images/irbase.jpg used on input line 235.
@@ -1865,11 +1865,11 @@ Package pdftex.def Info: hcmus.png used on input line 284.
  [8
 
 ]
-<images/example.png, id=265, 453.695pt x 147.55125pt>
-File: images/example.png Graphic file (type png)
- <use images/example.png>
-Package pdftex.def Info: images/example.png used on input line 296.
-(pdftex.def)             Requested size: 239.61263pt x 77.9271pt.
+<images/ggkb.png, id=270, 969.6225pt x 590.205pt>
+File: images/ggkb.png Graphic file (type png)
+ <use images/ggkb.png>
+Package pdftex.def Info: images/ggkb.png used on input line 296.
+(pdftex.def)             Requested size: 273.8449pt x 166.68819pt.
 File: hcmus.png Graphic file (type png)
 
 <use hcmus.png>
@@ -1877,52 +1877,416 @@ Package pdftex.def Info: hcmus.png used on input line 296.
 (pdftex.def)             Requested size: 19.69797pt x 18.49411pt.
  [9
 
- <./images/example.png>]
-<images/dptypes.png, id=293, 456.70625pt x 270.00874pt>
-File: images/dptypes.png Graphic file (type png)
+ <./images/ggkb.png>]
+<images/ggexample.png, id=299, 461.725pt x 595.22375pt>
+File: images/ggexample.png Graphic file (type png)
 
-<use images/dptypes.png>
-Package pdftex.def Info: images/dptypes.png used on input line 308.
-(pdftex.def)             Requested size: 239.60712pt x 141.65782pt.
+<use images/ggexample.png>
+Package pdftex.def Info: images/ggexample.png used on input line 308.
+(pdftex.def)             Requested size: 154.77922pt x 199.53061pt.
+
+Overfull \vbox (7.75067pt too high) detected at line 308
+ []
+
 File: hcmus.png Graphic file (type png)
- <use hcmus.png>
+<use hcmus.png>
 Package pdftex.def Info: hcmus.png used on input line 308.
 (pdftex.def)             Requested size: 19.69797pt x 18.49411pt.
  [10
 
- <./images/dptypes.png (PNG copy)>]
+ <./images/ggexample.png>]
+<images/neo4j.png, id=327, 543.02875pt x 327.2225pt>
+File: images/neo4j.png Graphic file (type png)
+ <use images/neo4j.png>
+Package pdftex.def Info: images/neo4j.png used on input line 321.
+(pdftex.def)             Requested size: 239.61282pt x 144.38776pt.
 File: hcmus.png Graphic file (type png)
+
 <use hcmus.png>
-Package pdftex.def Info: hcmus.png used on input line 323.
+Package pdftex.def Info: hcmus.png used on input line 321.
 (pdftex.def)             Requested size: 19.69797pt x 18.49411pt.
  [11
 
-]
-<images/qa_first_ex.png, id=348, 713.66624pt x 129.48375pt>
-File: images/qa_first_ex.png Graphic file (type png)
+ <./images/neo4j.png>]
+<images/ourkb.jpg, id=356, 786.94pt x 563.10374pt>
+File: images/ourkb.jpg Graphic file (type jpg)
+ <use images/ourkb.jpg>
+Package pdftex.def Info: images/ourkb.jpg used on input line 332.
+(pdftex.def)             Requested size: 273.83609pt x 195.94649pt.
 
-<use images/qa_first_ex.png>
-Package pdftex.def Info: images/qa_first_ex.png used on input line 334.
-(pdftex.def)             Requested size: 342.29454pt x 62.10406pt.
-File: hcmus.png Graphic file (type png)
- <use hcmus.png>
-Package pdftex.def Info: hcmus.png used on input line 334.
-(pdftex.def)             Requested size: 19.69797pt x 18.49411pt.
- [12
-
- <./images/qa_first_ex.png>]
-
-Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\h' on input line 336.
-
-
-LaTeX Warning: Empty bibliography on input line 340.
+Overfull \vbox (4.16655pt too high) detected at line 332
+ []
 
 File: hcmus.png Graphic file (type png)
 <use hcmus.png>
-Package pdftex.def Info: hcmus.png used on input line 340.
+Package pdftex.def Info: hcmus.png used on input line 332.
+(pdftex.def)             Requested size: 19.69797pt x 18.49411pt.
+ [12
+
+ <./images/ourkb.jpg>]
+File: hcmus.png Graphic file (type png)
+ <use hcmus.png>
+Package pdftex.def Info: hcmus.png used on input line 347.
 (pdftex.def)             Requested size: 19.69797pt x 18.49411pt.
  [13
+
+]
+File: hcmus.png Graphic file (type png)
+ <use hcmus.png>
+Package pdftex.def Info: hcmus.png used on input line 362.
+(pdftex.def)             Requested size: 19.69797pt x 18.49411pt.
+
+[14
+
+] <images/example.png, id=441, 453.695pt x 147.55125pt>
+File: images/example.png Graphic file (type png)
+
+<use images/example.png>
+Package pdftex.def Info: images/example.png used on input line 374.
+(pdftex.def)             Requested size: 273.83904pt x 89.05826pt.
+File: hcmus.png Graphic file (type png)
+ <use hcmus.png>
+Package pdftex.def Info: hcmus.png used on input line 374.
+(pdftex.def)             Requested size: 19.69797pt x 18.49411pt.
+ [15
+
+ <./images/example.png>]
+<images/dptypes.png, id=470, 456.70625pt x 270.00874pt>
+File: images/dptypes.png Graphic file (type png)
+
+<use images/dptypes.png>
+Package pdftex.def Info: images/dptypes.png used on input line 386.
+(pdftex.def)             Requested size: 273.85164pt x 161.90349pt.
+File: hcmus.png Graphic file (type png)
+ <use hcmus.png>
+Package pdftex.def Info: hcmus.png used on input line 386.
+(pdftex.def)             Requested size: 19.69797pt x 18.49411pt.
+ [16
+
+ <./images/dptypes.png (PNG copy)>]
+File: hcmus.png Graphic file (type png)
+<use hcmus.png>
+Package pdftex.def Info: hcmus.png used on input line 401.
+(pdftex.def)             Requested size: 19.69797pt x 18.49411pt.
+ [17
+
+]
+<images/qa_first_ex.png, id=526, 713.66624pt x 129.48375pt>
+File: images/qa_first_ex.png Graphic file (type png)
+
+<use images/qa_first_ex.png>
+Package pdftex.def Info: images/qa_first_ex.png used on input line 412.
+(pdftex.def)             Requested size: 342.29454pt x 62.10406pt.
+File: hcmus.png Graphic file (type png)
+ <use hcmus.png>
+Package pdftex.def Info: hcmus.png used on input line 412.
+(pdftex.def)             Requested size: 19.69797pt x 18.49411pt.
+ [18
+
+ <./images/qa_first_ex.png>]
+<images/firstex.png, id=555, 332.24126pt x 121.45375pt>
+File: images/firstex.png Graphic file (type png)
+
+<use images/firstex.png>
+Package pdftex.def Info: images/firstex.png used on input line 425.
+(pdftex.def)             Requested size: 239.60893pt x 87.59116pt.
+File: hcmus.png Graphic file (type png)
+ <use hcmus.png>
+Package pdftex.def Info: hcmus.png used on input line 425.
+(pdftex.def)             Requested size: 19.69797pt x 18.49411pt.
+ [19
+
+ <./images/firstex.png>]
+<images/firstextree.png, id=585, 733.74126pt x 372.39125pt>
+File: images/firstextree.png Graphic file (type png)
+
+<use images/firstextree.png>
+Package pdftex.def Info: images/firstextree.png used on input line 438.
+(pdftex.def)             Requested size: 239.60507pt x 121.6053pt.
+File: hcmus.png Graphic file (type png)
+ <use hcmus.png>
+Package pdftex.def Info: hcmus.png used on input line 438.
+(pdftex.def)             Requested size: 19.69797pt x 18.49411pt.
+ [20
+
+ <./images/firstextree.png>]
+<images/firstextreesimplified.png, id=614, 623.32875pt x 432.61626pt>
+File: images/firstextreesimplified.png Graphic file (type png)
+
+<use images/firstextreesimplified.png>
+Package pdftex.def Info: images/firstextreesimplified.png used on input line 44
+9.
+(pdftex.def)             Requested size: 239.60661pt x 166.29703pt.
+File: hcmus.png Graphic file (type png)
+ <use hcmus.png>
+Package pdftex.def Info: hcmus.png used on input line 449.
+(pdftex.def)             Requested size: 19.69797pt x 18.49411pt.
+ [21
+
+ <./images/firstextreesimplified.png>]
+<images/firstextreesimplified2.png, id=643, 623.32875pt x 432.61626pt>
+File: images/firstextreesimplified2.png Graphic file (type png)
+
+<use images/firstextreesimplified2.png>
+Package pdftex.def Info: images/firstextreesimplified2.png used on input line 4
+60.
+(pdftex.def)             Requested size: 239.60661pt x 166.29703pt.
+File: hcmus.png Graphic file (type png)
+ <use hcmus.png>
+Package pdftex.def Info: hcmus.png used on input line 460.
+(pdftex.def)             Requested size: 19.69797pt x 18.49411pt.
+ [22
+
+ <./images/firstextreesimplified2.png>]
+<images/firstextreesimplified3.png, id=672, 654.445pt x 443.6575pt>
+File: images/firstextreesimplified3.png Graphic file (type png)
+
+<use images/firstextreesimplified3.png>
+Package pdftex.def Info: images/firstextreesimplified3.png used on input line 4
+71.
+(pdftex.def)             Requested size: 239.60442pt x 162.4312pt.
+File: hcmus.png Graphic file (type png)
+ <use hcmus.png>
+Package pdftex.def Info: hcmus.png used on input line 471.
+(pdftex.def)             Requested size: 19.69797pt x 18.49411pt.
+ [23
+
+ <./images/firstextreesimplified3.png>]
+File: hcmus.png Graphic file (type png)
+ <use hcmus.png>
+Package pdftex.def Info: hcmus.png used on input line 485.
+(pdftex.def)             Requested size: 19.69797pt x 18.49411pt.
+ [24
+
+]
+File: images/firstextreesimplified3.png Graphic file (type png)
+
+<use images/firstextreesimplified3.png>
+Package pdftex.def Info: images/firstextreesimplified3.png used on input line 4
+98.
+(pdftex.def)             Requested size: 239.60442pt x 162.4312pt.
+File: hcmus.png Graphic file (type png)
+ <use hcmus.png>
+Package pdftex.def Info: hcmus.png used on input line 498.
+(pdftex.def)             Requested size: 19.69797pt x 18.49411pt.
+ [25
+
+]
+File: images/firstextreesimplified3.png Graphic file (type png)
+
+<use images/firstextreesimplified3.png>
+Package pdftex.def Info: images/firstextreesimplified3.png used on input line 5
+11.
+(pdftex.def)             Requested size: 239.60442pt x 162.4312pt.
+File: hcmus.png Graphic file (type png)
+ <use hcmus.png>
+Package pdftex.def Info: hcmus.png used on input line 511.
+(pdftex.def)             Requested size: 19.69797pt x 18.49411pt.
+ [26
+
+]
+File: images/firstextreesimplified3.png Graphic file (type png)
+
+<use images/firstextreesimplified3.png>
+Package pdftex.def Info: images/firstextreesimplified3.png used on input line 5
+24.
+(pdftex.def)             Requested size: 239.60442pt x 162.4312pt.
+File: hcmus.png Graphic file (type png)
+ <use hcmus.png>
+Package pdftex.def Info: hcmus.png used on input line 524.
+(pdftex.def)             Requested size: 19.69797pt x 18.49411pt.
+ [27
+
+]
+File: images/firstextreesimplified3.png Graphic file (type png)
+
+<use images/firstextreesimplified3.png>
+Package pdftex.def Info: images/firstextreesimplified3.png used on input line 5
+35.
+(pdftex.def)             Requested size: 239.60442pt x 162.4312pt.
+File: hcmus.png Graphic file (type png)
+ <use hcmus.png>
+Package pdftex.def Info: hcmus.png used on input line 535.
+(pdftex.def)             Requested size: 19.69797pt x 18.49411pt.
+ [28
+
+]
+<images/secondextree.png, id=839, 452.69125pt x 362.35374pt>
+File: images/secondextree.png Graphic file (type png)
+
+<use images/secondextree.png>
+Package pdftex.def Info: images/secondextree.png used on input line 549.
+(pdftex.def)             Requested size: 218.11823pt x 174.59131pt.
+File: hcmus.png Graphic file (type png)
+ <use hcmus.png>
+Package pdftex.def Info: hcmus.png used on input line 549.
+(pdftex.def)             Requested size: 19.69797pt x 18.49411pt.
+ [29
+
+ <./images/secondextree.png>]
+<images/secondextree2.png, id=868, 452.69125pt x 312.16624pt>
+File: images/secondextree2.png Graphic file (type png)
+
+<use images/secondextree2.png>
+Package pdftex.def Info: images/secondextree2.png used on input line 562.
+(pdftex.def)             Requested size: 239.60747pt x 165.22821pt.
+File: hcmus.png Graphic file (type png)
+ <use hcmus.png>
+Package pdftex.def Info: hcmus.png used on input line 562.
+(pdftex.def)             Requested size: 19.69797pt x 18.49411pt.
+ [30
+
+ <./images/secondextree2.png>]
+File: images/secondextree2.png Graphic file (type png)
+ <use images/secondextree2.png>
+Package pdftex.def Info: images/secondextree2.png used on input line 578.
+(pdftex.def)             Requested size: 171.1472pt x 118.01947pt.
+File: hcmus.png Graphic file (type png)
+ <use hcmus.png>
+Package pdftex.def Info: hcmus.png used on input line 578.
+(pdftex.def)             Requested size: 19.69797pt x 18.49411pt.
+ [31
+
+]
+File: images/secondextree2.png Graphic file (type png)
+
+<use images/secondextree2.png>
+Package pdftex.def Info: images/secondextree2.png used on input line 593.
+(pdftex.def)             Requested size: 171.1472pt x 118.01947pt.
+File: hcmus.png Graphic file (type png)
+ <use hcmus.png>
+Package pdftex.def Info: hcmus.png used on input line 593.
+(pdftex.def)             Requested size: 19.69797pt x 18.49411pt.
+ [32
+
+]
+File: images/secondextree2.png Graphic file (type png)
+
+<use images/secondextree2.png>
+Package pdftex.def Info: images/secondextree2.png used on input line 609.
+(pdftex.def)             Requested size: 171.1472pt x 118.01947pt.
+File: hcmus.png Graphic file (type png)
+ <use hcmus.png>
+Package pdftex.def Info: hcmus.png used on input line 609.
+(pdftex.def)             Requested size: 19.69797pt x 18.49411pt.
+ [33
+
+]
+File: images/secondextree2.png Graphic file (type png)
+
+<use images/secondextree2.png>
+Package pdftex.def Info: images/secondextree2.png used on input line 626.
+(pdftex.def)             Requested size: 171.1472pt x 118.01947pt.
+File: hcmus.png Graphic file (type png)
+ <use hcmus.png>
+Package pdftex.def Info: hcmus.png used on input line 626.
+(pdftex.def)             Requested size: 19.69797pt x 18.49411pt.
+ [34
+
+]
+File: images/secondextree2.png Graphic file (type png)
+
+<use images/secondextree2.png>
+Package pdftex.def Info: images/secondextree2.png used on input line 642.
+(pdftex.def)             Requested size: 171.1472pt x 118.01947pt.
+File: hcmus.png Graphic file (type png)
+ <use hcmus.png>
+Package pdftex.def Info: hcmus.png used on input line 642.
+(pdftex.def)             Requested size: 19.69797pt x 18.49411pt.
+ [35
+
+]
+<images/thirdextree.png, id=1035, 522.95375pt x 372.39125pt>
+File: images/thirdextree.png Graphic file (type png)
+
+<use images/thirdextree.png>
+Package pdftex.def Info: images/thirdextree.png used on input line 655.
+(pdftex.def)             Requested size: 273.84464pt x 195.00261pt.
+
+Overfull \vbox (18.95131pt too high) detected at line 655
+ []
+
+File: hcmus.png Graphic file (type png)
+<use hcmus.png>
+Package pdftex.def Info: hcmus.png used on input line 655.
+(pdftex.def)             Requested size: 19.69797pt x 18.49411pt.
+ [36
+
+ <./images/thirdextree.png>]
+<images/thirdextree2.png, id=1064, 643.40375pt x 292.09125pt>
+File: images/thirdextree2.png Graphic file (type png)
+
+<use images/thirdextree2.png>
+Package pdftex.def Info: images/thirdextree2.png used on input line 673.
+(pdftex.def)             Requested size: 273.8504pt x 124.32208pt.
+
+Overfull \vbox (3.27899pt too high) detected at line 673
+ []
+
+File: hcmus.png Graphic file (type png)
+<use hcmus.png>
+Package pdftex.def Info: hcmus.png used on input line 673.
+(pdftex.def)             Requested size: 19.69797pt x 18.49411pt.
+ [37
+
+ <./images/thirdextree2.png>]
+File: images/thirdextree2.png Graphic file (type png)
+ <use images/thirdextree2.png>
+Package pdftex.def Info: images/thirdextree2.png used on input line 692.
+(pdftex.def)             Requested size: 273.8504pt x 124.32208pt.
+
+Overfull \vbox (16.879pt too high) detected at line 692
+ []
+
+File: hcmus.png Graphic file (type png)
+<use hcmus.png>
+Package pdftex.def Info: hcmus.png used on input line 692.
+(pdftex.def)             Requested size: 19.69797pt x 18.49411pt.
+ [38
+
+]
+File: images/thirdextree2.png Graphic file (type png)
+ <use images/thirdextree2.png>
+Package pdftex.def Info: images/thirdextree2.png used on input line 712.
+(pdftex.def)             Requested size: 273.8504pt x 124.32208pt.
+
+Overfull \vbox (30.479pt too high) detected at line 712
+ []
+
+File: hcmus.png Graphic file (type png)
+<use hcmus.png>
+Package pdftex.def Info: hcmus.png used on input line 712.
+(pdftex.def)             Requested size: 19.69797pt x 18.49411pt.
+ [39
+
+]
+File: images/thirdextree2.png Graphic file (type png)
+ <use images/thirdextree2.png>
+Package pdftex.def Info: images/thirdextree2.png used on input line 732.
+(pdftex.def)             Requested size: 273.8504pt x 124.32208pt.
+
+Overfull \vbox (30.479pt too high) detected at line 732
+ []
+
+File: hcmus.png Graphic file (type png)
+<use hcmus.png>
+Package pdftex.def Info: hcmus.png used on input line 732.
+(pdftex.def)             Requested size: 19.69797pt x 18.49411pt.
+ [40
+
+]
+File: hcmus.png Graphic file (type png)
+ <use hcmus.png>
+Package pdftex.def Info: hcmus.png used on input line 764.
+(pdftex.def)             Requested size: 19.69797pt x 18.49411pt.
+ [41
+
+]
+File: hcmus.png Graphic file (type png)
+ <use hcmus.png>
+Package pdftex.def Info: hcmus.png used on input line 782.
+(pdftex.def)             Requested size: 19.69797pt x 18.49411pt.
+ [42
 
 ]
 \tf@nav=\write8
@@ -1939,13 +2303,13 @@ Package pdftex.def Info: hcmus.png used on input line 340.
 Package caption Warning: Unused \captionsetup[figure] on input line 98.
 See the caption package documentation for explanation.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 349.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 349.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 791.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 791.
 (./slide.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 349.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 349.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 791.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 791.
 Package rerunfilecheck Info: File `slide.out' has not changed.
-(rerunfilecheck)             Checksum: 5EFC6A0B67C18E8EB31CF6ECAFFE9DB9;97.
+(rerunfilecheck)             Checksum: 85BE6F89AFC5A7E746D773D17ACA12E8;150.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
@@ -1953,31 +2317,35 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Package logreq Info: Writing requests to 'slide.run.xml'.
 \openout1 = `slide.run.xml'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 349.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 791.
  )
 (\end occurred when \iftrue on line 136 was incomplete) 
 Here is how much of TeX's memory you used:
- 24992 strings out of 493029
- 455546 string characters out of 6136234
- 766741 words of memory out of 5000000
- 27931 multiletter control sequences out of 15000+600000
+ 25180 strings out of 493029
+ 458272 string characters out of 6136234
+ 767743 words of memory out of 5000000
+ 28046 multiletter control sequences out of 15000+600000
  31773 words of font info for 74 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  56i,17n,67p,932b,714s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/share/texlive/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/font
-s/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/texlive/texmf-dist/fonts/type1
-/vntex/vnr/vnss10.pfb></usr/share/texlive/texmf-dist/fonts/type1/vntex/vnr/vnss
-12.pfb></usr/share/texlive/texmf-dist/fonts/type1/vntex/vnr/vnss8.pfb></usr/sha
-re/texlive/texmf-dist/fonts/type1/vntex/vnr/vnss9.pfb></usr/share/texlive/texmf
--dist/fonts/type1/vntex/vnr/vnssbx10.pfb></usr/share/texlive/texmf-dist/fonts/t
-ype1/vntex/vnr/vnssi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/vntex/vnr
-/vnssi8.pfb>
-Output written on slide.pdf (13 pages, 696815 bytes).
+pdfTeX warning (dest): n
+ame{Navigation43} has been referenced but does not exist, replaced by a fixed o
+ne
+
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr
+/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/vntex/vnr/vnss10.pfb></usr/share/texlive/texmf-dist/fonts/ty
+pe1/vntex/vnr/vnss12.pfb></usr/share/texlive/texmf-dist/fonts/type1/vntex/vnr/v
+nss8.pfb></usr/share/texlive/texmf-dist/fonts/type1/vntex/vnr/vnss9.pfb></usr/s
+hare/texlive/texmf-dist/fonts/type1/vntex/vnr/vnssbx10.pfb></usr/share/texlive/
+texmf-dist/fonts/type1/vntex/vnr/vnssi10.pfb></usr/share/texlive/texmf-dist/fon
+ts/type1/vntex/vnr/vnssi8.pfb>
+Output written on slide.pdf (42 pages, 1412142 bytes).
 PDF statistics:
- 445 PDF objects out of 1000 (max. 8388607)
- 397 compressed objects within 4 object streams
- 29 named destinations out of 1000 (max. 500000)
- 113 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1288 PDF objects out of 1440 (max. 8388607)
+ 1178 compressed objects within 12 object streams
+ 89 named destinations out of 1000 (max. 500000)
+ 186 words of extra memory for PDF output out of 10000 (max. 10000000)
 

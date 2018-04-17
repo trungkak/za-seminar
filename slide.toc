@@ -4,4 +4,6 @@
 \defcounter {refsection}{0}\relax 
 \beamer@sectionintoc {1}{Question Answering}{2}{0}{1}
 \defcounter {refsection}{0}\relax 
-\beamer@sectionintoc {2}{Tham kh\IeC {\h a}o}{13}{0}{2}
+\beamer@sectionintoc {2}{About this method}{41}{0}{2}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {3}{References}{42}{0}{3}
